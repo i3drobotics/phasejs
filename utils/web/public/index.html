@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Phase Demo</title>
+</head>
+
+<body>
+    <header>
+        <h1>Phase Demo</h1>
+    </header>
+    <form action="/processStereo" method="POST" enctype="multipart/form-data">
+        <h3>Process Stereo</h3>
+        <label for="left_image_upload">Left image: </label>
+        <input type="file" name="left_image_upload"><br>
+        <label for="right_image_upload">Right image: </label>
+        <input type="file" name="right_image_upload"><br>
+        <label for="left_yaml_upload">Left yaml: </label>
+        <input type="file" name="left_yaml_upload"><br>
+        <label for="right_yaml_upload">Right yaml: </label>
+        <input type="file" name="right_yaml_upload"><br>
+        <button id="btnProcessStereo" type="submit">Sumbit</button>
+    </form>
+
+    <footer>
+    </footer>
+</body>
+
+</html>

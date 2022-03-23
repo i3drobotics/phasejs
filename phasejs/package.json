@@ -1,0 +1,38 @@
+{
+  "name": "@i3dr/phasejs",
+  "version": "0.0.2",
+  "description": "nodejs wrapper for I3DR's Phase library",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node index.js",
+    "postinstall": "node postinstall.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/i3drobotics/phase.git"
+  },
+  "keywords": [
+    "i3dr",
+    "phase",
+    "stereo",
+    "vision",
+    "3d"
+  ],
+  "author": "Ben Knight (Industrial 3D Robotics)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/i3drobotics/phase/issues"
+  },
+  "homepage": "https://github.com/i3drobotics/phase",
+  "dependencies": {
+    "mocha": "^9.0.1",
+    "python-shell": "2.0.3"
+  },
+  "files": [
+    "loadsdk.js",
+    "modules",
+    "test",
+    "postinstall.js"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "name": "@i3dr/phasejs-app",
+  "version": "0.0.2",
+  "description": "nodejs API for I3DR's Phase",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node console/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/i3drobotics/phase.git"
+  },
+  "keywords": [
+    "i3dr",
+    "phase",
+    "stereo",
+    "vision",
+    "3d"
+  ],
+  "author": "Ben Knight (Industrial 3D Robotics)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/i3drobotics/phase/issues"
+  },
+  "homepage": "https://github.com/i3drobotics/phase",
+  "dependencies": {
+    "@i3dr/phase": "file:../../../install/nodejs/i3dr-phase-0.0.2.tgz",
+    "body-parser": "*",
+    "express": "*",
+    "express-formidable": "*",
+    "express-rate-limit": "*",
+    "formidable": "*",
+    "helmet": "*"
+  }
+}
